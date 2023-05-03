@@ -1,3 +1,7 @@
+body{
+    background-color: #fafafa;
+}
+
 .loginpage__main{
     display: flex;
     margin: 25px;
@@ -12,11 +16,27 @@
     border: 1xp solid #dbdbcb;
     margin-top: 25px;
     text-align: center;
+    background-color: white;
+}
+.loginPage__sinIn {
+    margin-top: 25px;
 }
 .loginpage__text {
     width: 258px;
     height: 36px;
+    margin: 5px;
+    border: 1px solid #dbdbcb;
+    background-color: #fafafa;
+    padding-left: 10px;
+    border-radius: 5px;
 }
 .login__button {
     width: 270px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid #0395f6;
+    background-color: #0395f6;
+    color: white;
 }
