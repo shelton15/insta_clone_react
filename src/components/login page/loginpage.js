@@ -13,22 +13,29 @@ class LoginPage extends Component {
         return(
             <div>
                 <Grid container>
-                    <Grid item xs={3}>
-                        Hello
-                    </Grid>
+                    <Grid item xs={3}> </Grid>
+
                     <Grid item xs={6}>
                         <div className="loginpage__main">
                             <div>
                                 <img  alt="#" src={insta_image} width="450"/>
                             </div>
-                        </div>
+                        <div>
                         <div className="loginpage_rightcomponent">
-                        <img className="loginpage__logo" alt="#" src={insta_logo}/>
+                                <img className="loginpage__logo" alt="#" src={insta_logo}/>
+                        </div>
+                        <div>
+                            <div className="loginPage__sigIn">
+                                <input type="text"/>
+                                <input type="password"/>
+                                <button>Sign In</button>
+                            </div>
+                        </div>
+                        </div>
                         </div>
                     </Grid>
-                    <Grid item xs={3}>
-                        Shelton
-                    </Grid>
+                    <Grid item xs={3}> </Grid>
+
                 </Grid>
             </div>
         )
