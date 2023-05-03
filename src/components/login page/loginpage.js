@@ -26,9 +26,9 @@ class LoginPage extends Component {
                         </div>
                         <div>
                             <div className="loginPage__sigIn">
-                                <input type="text"/>
-                                <input type="password"/>
-                                <button>Sign In</button>
+                                <input className="loginpage__text" type="text"/>
+                                <input className="loginpage__text" type="password"/>
+                                <button className="login__button">Sign In</button>
                             </div>
                         </div>
                         </div>
