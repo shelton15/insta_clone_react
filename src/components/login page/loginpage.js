@@ -17,13 +17,13 @@ class LoginPage extends Component {
                         Hello
                     </Grid>
                     <Grid item xs={6}>
-                        <div className="loginpage_main">
+                        <div className="loginpage__main">
                             <div>
-                                <img src={insta_image} width="450"/>
+                                <img  alt="#" src={insta_image} width="450"/>
                             </div>
                         </div>
-                        <div>
-                        <img src={insta_logo}/>
+                        <div className="loginpage_rightcomponent">
+                        <img className="loginpage__logo" alt="#" src={insta_logo}/>
                         </div>
                     </Grid>
                     <Grid item xs={3}>
