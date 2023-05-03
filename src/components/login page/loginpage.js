@@ -3,6 +3,9 @@ import Grid from '@mui/material/Grid';
 import './loginpage.css';
 import insta_image from '../../images/insta_image.png';
 import insta_logo from '../../images/instagram_logo.png';
+import fb from '../../images/logo_face.png';
+import appstore from '../../images/appstore.png';
+import playstore from '../../images/playstore.png';
 
 class LoginPage extends Component {
     constructor(props){
@@ -28,6 +31,31 @@ class LoginPage extends Component {
                                 <input className="loginpage__text" type="password" placeholder="password"/>
                                 <button className="login__button">Sign In</button>
                             </div>
+                            <div className="login__ordiv">
+                                <div className="login__division"></div>
+                                <div className="login__or">OR</div>
+                                <div className="login__dividor"></div>
+                            </div>
+                            <div className="login__fb">
+                                <img alt="#"src={fb} width="15px" style={{"marginRight":"5px"}}/> Log in with Facebook
+                            </div>
+                            <div className="login__forgot">
+                                Forgot Password ?
+                            </div>
+                        </div>
+                        
+
+                        <div className="loginpage__signupoption">
+                            <div className="loginPage__signIn">
+                                Don't have an account? Sign up
+                            </div>
+                            <div className="loginPage__signup">
+                                Get the App
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="#" src={appstore} width="150px"/>
+                            <img alt="#" src={playstore} width="150px"/>
                         </div>
                         </div>
                         </div>
