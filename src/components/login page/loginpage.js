@@ -53,7 +53,7 @@ class LoginPage extends Component {
                                 Get the App
                             </div>
                         </div>
-                        <div>
+                        <div className="loginPage__downloadSection">
                             <img alt="#" src={appstore} width="150px"/>
                             <img alt="#" src={playstore} width="150px"/>
                         </div>
