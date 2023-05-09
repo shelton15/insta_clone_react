@@ -61,7 +61,6 @@ class LoginPage extends Component {
                         </div>
                     </Grid>
                     <Grid item xs={3}> </Grid>
-
                 </Grid>
             </div>
         )
