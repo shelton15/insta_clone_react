@@ -1,4 +1,5 @@
 import React, { Component} from "react";
+import NavBar from "../NavBar/NavBar";
 import "./home.css"
 
 class Home extends Component{
@@ -8,7 +9,9 @@ class Home extends Component{
     }
     render() {
         return (
-            <div>Hello from Shelton</div>
+            <div>
+                <NavBar/>
+            </div>
         );
     }
 }

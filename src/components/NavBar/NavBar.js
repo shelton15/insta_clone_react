@@ -8,7 +8,8 @@ class NavBar extends Component{
     }
     render() {
         return (
-            <div>Hello from Itor</div>
+            <div>NavBar</div>
+
         );
     }
 }
