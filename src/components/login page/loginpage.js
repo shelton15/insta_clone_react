@@ -32,9 +32,9 @@ class LoginPage extends Component {
                                 <button className="login__button">Sign In</button>
                             </div>
                             <div className="login__ordiv">
-                                <div className="login__division"></div>
+                                {/* <div className="login__division"></div> */}
                                 <div className="login__or">OR</div>
-                                <div className="login__dividor"></div>
+                                {/* <div className="login__dividor"></div> */}
                             </div>
                             <div className="login__fb">
                                 <img alt="#"src={fb} width="15px" style={{"marginRight":"5px"}}/> Log in with Facebook
