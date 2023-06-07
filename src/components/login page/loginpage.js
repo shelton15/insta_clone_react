@@ -57,7 +57,7 @@ class LoginPage extends Component {
                         
                         <div className="loginPage__option">
                             <img className="loginPage__dwing" alt="#" src={appstore} width="136px"/>
-                            <img alt="#" src={playstore} width="136px"/>
+                            <img className="loginPage__dwing" alt="#" src={playstore} width="136px"/>
                         </div>
                         </div>
                         </div>

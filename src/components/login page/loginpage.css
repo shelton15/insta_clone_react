@@ -74,12 +74,13 @@ body{
     height: 10px;
     width: 350px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .loginPage__option {
     margin-top: 20px;
     text-align: center;
 }
-.loginPage__diwng {
+.loginPage__dwing {
+    margin-top: 20px;
     margin: 5px;
 }
