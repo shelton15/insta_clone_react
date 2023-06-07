@@ -8,10 +8,10 @@ import MainContent from './components/MainContent/MainContent';
 function App() {
   return (
     <div className="App">
-      <LoginPage/>
+      {/* <LoginPage/> */}
       <Home/>
-      <NavBar/>
-      <MainContent/>
+      {/* <NavBar/>
+      <MainContent/> */}
     </div>
   );
 }

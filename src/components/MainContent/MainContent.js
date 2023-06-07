@@ -8,7 +8,9 @@ class MainContent extends Component{
     }
     render() {
         return (
-            <div>MainContent</div>
+            <div>
+                Main Content
+            </div>
 
         );
     }
