@@ -49,13 +49,16 @@ class LoginPage extends Component {
                             <div className="loginPage__signIn">
                                 Don't have an account? Sign up
                             </div>
-                            <div className="loginPage__signup">
+                            <div className="loginPage__downloadSection">
+                                <div>
                                 Get the App
+                                </div>
                             </div>
+                        
+                        <div className="loginPage__option">
+                            <img className="loginPage__dwing" alt="#" src={appstore} width="136px"/>
+                            <img alt="#" src={playstore} width="136px"/>
                         </div>
-                        <div className="loginPage__downloadSection">
-                            <img alt="#" src={appstore} width="150px"/>
-                            <img alt="#" src={playstore} width="150px"/>
                         </div>
                         </div>
                         </div>
